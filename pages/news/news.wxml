@@ -1,0 +1,10 @@
+<!--pages/news/news.wxml-->
+<view class="container">
+
+<import src="../wxParse/wxParse.wxml"/>
+<text class="title">{{title}}</text>
+<text class="author">{{author}}</text>
+<template is="wxParse" data="{{wxParseData: article.nodes}}"/>
+
+</view>
+

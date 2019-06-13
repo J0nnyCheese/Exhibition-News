@@ -1,0 +1,6 @@
+<div class="news_container">
+  <view class="news_group" bindtap="enterNewsDetails" wx:for="{{items}}" wx:key="{{index}}" wx:for-item="news">
+    <image class="news_pic" src="{{news.image_src}}" mode="widthFix"/>
+    <text class="news_title">{{news.title}} </text>
+  </view>
+</div>

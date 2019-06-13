@@ -1,0 +1,15 @@
+/* pages/news/news.wxss */
+.container {
+  display: flex;
+  flex-direction: column
+}
+
+.title {
+  margin: 3%;
+  font-size: 45rpx
+}
+
+.author {
+  margin-left: 3%;
+  color: rgba(0, 0, 255, 0.507)
+  }

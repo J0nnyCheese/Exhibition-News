@@ -1,0 +1,57 @@
+<view class='container'>
+
+<div>
+  <text class="title">参观日期</text>
+</div>
+
+<div class="checkbox">
+  <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}">
+      <checkbox value="{{items.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </checkbox-group>
+</div>
+
+<div class="section">
+  <text class="content">2019江西文化发展巡礼”展期延至5月14日: 应广大群众要求，省巡礼展工作领导小组决定，“2019江西文化发展巡礼”展期延至5月14日。具体开放时间为：5月13日10:00-21:00，5月14日10：00-16:00。地址：江西省美术馆（江西省展览中心，南昌市西湖区八一大道266号）。</text>
+</div>
+
+<div class="form">
+<form bindsubmit="formSubmit">
+
+<view class="page-section">
+  <view class="weui-cells__title">姓名：</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="inputAccount"/>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="page-section">
+  <view class="weui-cells__title">身份证</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="inputPassword"/>
+      </view>
+    </view>
+  </view>
+
+<view class="page-section">
+  <view class="weui-cells__title">手机号</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="inputSearch" confirm-type='done'/>
+      </view>
+    </view>
+  </view>
+
+<view class="botton">
+  <button type="primary"> 预约 </button>
+</view>
+
+</form>
+</div>
+
+</view>

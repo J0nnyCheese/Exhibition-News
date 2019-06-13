@@ -1,0 +1,36 @@
+/* pages/appointment/appointment.wxss */
+@import "../../lib/weui.wxss";
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.title {
+  font-size: 48rpx;
+  color: grey;
+} 
+
+.checkbox {
+  margin: 3%
+}
+
+.section {
+  outline: grey solid thin
+}
+
+.content {
+  font-size: 35rpx;
+}
+
+.form {
+  width: 90%
+}
+ 
+.page-section{
+ margin-bottom: 20rpx;
+}
+
+.botton {
+  margin: 10%;
+}

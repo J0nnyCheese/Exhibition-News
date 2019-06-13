@@ -1,0 +1,53 @@
+<!--pages/index/index.wxml-->
+<div class="page">
+
+<div>
+  <image class="main_photo" src="https://19.jxwhxl.cn/mainpages/images/index_02.jpg" mode="widthFix" style="width: 100%"/>
+</div>
+
+
+<div>
+  <div class="navigation_container">
+    <div class="navigation_group" bindtap="guide">
+      <image class="navigaiton_logo" src="https://19.jxwhxl.cn/mainpages/images/index_05.jpg" mode="widthFix" 
+        style="width: 47rpx"></image>
+      <text class="navigation_annotation">参观指南</text>
+    </div>
+    <div class="navigation_group" bindtap="appointment">
+      <image class="navigaiton_logo" src="https://19.jxwhxl.cn/mainpages/images/index_07.jpg" mode="widthFix"
+        style="width: 59.4rpx"></image>
+      <text class="navigation_annotation">预约观展</text>
+    </div>
+    <div class="navigation_group" bindtap="map">
+      <image class="navigaiton_logo" src="https://19.jxwhxl.cn/mainpages/images/index_09.jpg" mode="widthFix"
+        style="width: 64rpx"></image>
+      <text class="navigation_annotation">展区导览</text>
+    </div>
+    <div class="navigation_group right_most" bindtap="newsList">
+      <image class="navigaiton_logo" src="https://19.jxwhxl.cn/mainpages/images/index_11.jpg" mode="widthFix"
+        style="width: 63.9rpx"></image>
+      <text class="navigation_annotation">展会动态</text>
+    </div>
+  </div>
+</div>
+
+
+<div class="bar">
+  <text class="exhibition_detail">展讯咨询</text>
+</div>
+
+
+<div class="news_container">
+  <view class="news_group" bindtap="enterNews" wx:for="{{items}}" wx:key="{{index}}" wx:for-item="news" wx-if="{{index<4}}" id="{{news.id}}">
+    <image class="news_pic" src="{{news.image_src}}" mode="widthFix"/>
+    <text class="news_title">{{news.title}} </text>
+  </view>
+</div>
+
+
+<div>
+  <text class="worksCited">By Jonathan xD</text>
+</div>
+
+</div>
+
