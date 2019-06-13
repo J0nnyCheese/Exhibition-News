@@ -8,4 +8,4 @@ This is my first project after learning fundamentals of HTML, CSS, SQL, and http
 
 For the servlet part, Tomcat, MySQL Connector, and JSON Convertor were used. I have a VO class packing results sent back from database, a db class which handles connection and SQL query, a DAO class formating the string used for SQL query, and a servlet class that does the servlet request and response.
 
-I
+I have the permission to use the website content.
