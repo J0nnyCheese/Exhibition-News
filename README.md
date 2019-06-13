@@ -2,7 +2,7 @@
 
 Description: 
 
-#GIF showcase
+![img](Exhibition-News/showcase/2019-06-13-11-10-52.gif)
 
 This is my first project after learning fundamentals of HTML, CSS, SQL, and httpservlet. It is a program converting the source website (src="https://19.jxwhxl.cn/mainpages/default.aspx") into a wechat mini program. To make everything work I setup three parts: wechat mini program, java servlet, and MySQL Database. Only the source code for wechat is provided here. Also, WxParse is used to parse html content (https://github.com/icindy/wxParse).
 
